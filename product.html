@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+  <header class="header-alibaba">
+
+    <div class="logo">
+      <img src="./images/logo-colored.png" alt="Brand Logo">
+    </div>
+
+    <!-- Search Area -->
+    <div class="search-bar">
+      <input type="text" placeholder="Search products...">
+      <select class="category-select">
+        <option>All Category</option>
+        <option>cart</option>
+        <option>Login</option>
+        <option>product</option>
+      </select>
+      <button>Search</button>
+
+
+      <i class="fa fa-bell"></i>
+      <i class="fa fa-heart"></i>
+      <i class="fa fa-shopping-cart"></i>
+      <i class="fa fa-user"></i>
+    </div>
+
+  </header>
+  <!-- NAVBAR -->
+  <section class="navbar-alibaba">
+
+    <div class="nav-wrapper">
+      <!-- NAVIGATION MENU -->
+      <nav class="main-menu">
+        <ul>
+          <li>All Category</li>
+          <li>Hot Offers</li>
+          <li>Gift Boxes</li>
+          <li>Projects</li>
+          <li>Menu Item</li>
+          <li>Help</li>
+        </ul>
+      </nav>
+
+      <!-- Language & Shipping Options -->
+      <div class="lang-ship">
+        <select>
+          <option>English, 🇺🇸 <span>Ship to 🇺🇸</span></option>
+        </select>
+        <select>
+          <option>Ship to 🇩🇪 Germany</option>
+        </select>
+      </div>
+
+    </div>
+
+    <!-- Category Breadcrumb -->
+    <nav class="category-bar">
+      <div class="category-scroll">
+        <a href="index.html">Home</a> >
+        <a href="#ca.html">Clothing</a> >
+        <a href="#cart.html">Men's Wear</a> >
+        <a href="#cart3.html">Summer Wear</a> >
+        <a href="#product.html">Women's Wear</a> >
+        <a href="#index.html">More...</a>
+      </div>
+    </nav>
+
+    <div class="product-container">
+      <!-- Left Product Image -->
+      <div class="product-images">
+        <img src="./images/ce60bd07ba64362f07075659795d0e6c24963920.jpg" alt="Main Product" class="main-image"
+          id="mainImage">
+        <div class="thumbnails">
+          <img src="./images/ce60bd07ba64362f07075659795d0e6c24963920.jpg" alt="Thumbnail 1">
+          <img src="./images/361ff6150b669765823c4c4c5af81ab06e2a1158.jpg" alt="Thumbnail 2">
+          <img src="./images/ce60bd07ba64362f07075659795d0e6c24963920 (1).jpg" alt="Thumbnail 3">
+          <img src="./images/06b8fd3662c57b197df41225b5846b233d3a1058.jpg" alt="Thumbnail 4">
+          <img src="./images/6a90c22a9f3dac9e0b97dd076154a67e0ea941a5.jpg" alt="Thumbnail 5">
+          <img src="./images/ce60bd07ba64362f07075659795d0e6c24963920 (1).jpg" alt="Thumbnail 5">
+        </div>
+      </div>
+
+      <!-- Right Product Info -->
+      <div class="product-info">
+        <p class="stock">✅ In stock</p>
+        <h2>Mens Long Sleeve T-shirt Cotton Base Layer Slim Muscle</h2>
+        <div class="rating">
+          ⭐⭐⭐⭐⭐ <span>5.0</span> | <a href="#">32 reviews</a> | 154 sold
+        </div>
+
+        <div class="price-section">
+          <span class="old-price">$98.00</span>
+          <span class="new-price">$90.00</span>
+          <span class="discount">$78.00</span>
+        </div>
+
+        <div class="details">
+          <p><b>Price:</b> Negotiable</p>
+          <p><b>Type:</b> Classic shoes</p>
+          <p><b>Material:</b> Plastic material</p>
+          <p><b>Design:</b> Modern nice</p>
+          <p><b>Customization:</b> Customized logo and packing</p>
+          <p><b>Warranty:</b> 2 years full warranty</p>
+        </div>
+
+        <div class="supplier-box">
+          <h4>Supplier</h4>
+          <p><b>R</b> Camriot Trading LLC</p>
+          <p>Germany, Berlin</p>
+          <button>Send Inquiry</button>
+          <a href="#">Seller’s profile</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tabs -->
+    <div class="tabs">
+      <button class="tab-btn active" data-tab="desc">Description</button>
+      <button class="tab-btn" data-tab="reviews">Reviews</button>
+      <button class="tab-btn" data-tab="shipping">Shipping</button>
+      <button class="tab-btn" data-tab="seller">About Seller</button>
+    </div>
+
+    <div class="tab-content active" id="desc">
+      <p>Lorem ipsum dolor sit amet...</p>
+      <table>
+        <tr>
+          <td>Model</td>
+          <td>W9824567</td>
+        </tr>
+        <tr>
+          <td>Certificate</td>
+          <td>ISO-8901</td>
+        </tr>
+        <tr>
+          <td>Size</td>
+          <td>45mm x 18mm</td>
+        </tr>
+        <tr>
+          <td>Memory</td>
+          <td>3GB RAM</td>
+        </tr>
+      </table>
+    </div>
+    <div class="tab-content" id="reviews">No reviews yet.</div>
+    <div class="tab-content" id="shipping">Shipping info here.</div>
+    <div class="tab-content" id="seller">Seller info here.</div>
+
+    <!-- You may like -->
+    <div class="you-may-like">
+      <h3>You may like</h3>
+      <div class="like-grid">
+        <div class="like-item">
+          <img src="./images/cloth/7.png" alt="You may like 1">
+          <p>Men Blazers Sets</p>
+        </div>
+        <div class="like-item">
+          <img src="./images/cloth/1.png" alt="You may like 2">
+          <p>Men Shirts</p>
+        </div>
+        <div class="like-item">
+          <img src="./images/cloth/3.png" alt="You may like 3">
+          <p>Men Trousers</p>
+        </div>
+        <div class="like-item">
+          <img src="./images/cloth/55a91dea606bf3ac6b9c1b897823e7ee6f0100ae.png" alt="You may like 3">
+          <p>Men Trousers</p>
+        </div>
+        <div class="like-item">
+          <img src="./images/deea14d78e68b15c28eb29234224b8b2f71d5eb5 (1).png" alt="You may like 3">
+          <p>Men Trousers</p>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Related Products -->
+    <div class="related-products">
+      <h3>Related Products</h3>
+      <div class="product-row">
+        <div class="card">
+          <img src="./images/3e0d988a895e1e83befccaeafc962783f0de80c5 (1).png" alt="Related Product 1">
+          <p>Xiaomi Redmi 8</p>
+        </div>
+        <div class="card">
+          <img src="./images/8.png" alt="Related Product 2">
+          <p>Xiaomi Redmi 8</p>
+        </div>
+        <div class="card">
+          <img src="./images/tech/0.png" alt="Related Product 3">
+          <p>Xiaomi Redmi 8</p>
+        </div>
+        <div class="card">
+          <img src="./images/8ef134a2fbdc1fec81bd703736016e62fddab16b (2).png" alt="Related Product 4">
+          <p>Xiaomi Redmi 8</p>
+        </div>
+         <div class="card">
+          <img src="./images/image 85.png" alt="Related Product 4">
+          <p>Xiaomi Redmi 8</p>
+        </div>
+         <div class="card">
+          <img src="./images/7.png" alt="Related Product 4">
+          <p>Xiaomi Redmi 8</p>
+        </div>
+         
+
+      </div>
+    </div>
+
+    <!-- Promo Box -->
+    <div class="promo-box">
+      <p>
+        <strong>Super discount on more than 100 USD</strong><br>
+        Have you ever finally just let someone into your life?
+      </p>
+      <button class="promo-btn">Ask to explore</button>
+    </div>
+
+
+    <footer>
+      <div class="brand-logo">
+        <img src="./images/logo-colored.png" alt="Brand Logo" />
+        <p>Best information about the company goes here but now lorem ipsum is</p>
+        <div class="social-icons">
+          <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+
+      <div class="layout-footer alibaba">
+        <div class="column">
+          <h2>About</h2>
+          <h3>About Us</h3>
+          <h3>Find Store</h3>
+          <h3>Categories</h3>
+          <h3>Blogs</h3>
+        </div>
+        <div class="column">
+          <h2>Partnership</h2>
+          <h3>Become Partner</h3>
+          <h3>Affiliate</h3>
+          <h3>Wholesale</h3>
+          <h3>Support</h3>
+        </div>
+        <div class="column">
+          <h2>Information</h2>
+          <h3>Help Center</h3>
+          <h3>Money Refund</h3>
+          <h3>Shipping</h3>
+          <h3>Contact Us</h3>
+        </div>
+        <div class="column">
+          <h2>For Users</h2>
+          <h3>Login</h3>
+          <h3>Register</h3>
+          <h3>Settings</h3>
+          <h3>My Orders</h3>
+        </div>
+        <div class="column">
+          <h2><b>Get app</b></h2>
+          <div style="display: flex; gap: 20px;">
+            <!-- Google Play -->
+            <a href="https://play.google.com/store" target="_blank">
+              <i class="fab fa-google-play" style="font-size: 30px; color: #34A853;"></i>
+            </a>
+
+            <!-- Apple App Store -->
+            <a href="https://www.apple.com/app-store/" target="_blank">
+              <i class="fab fa-apple" style="font-size: 30px; color: #000;"></i>
+            </a>
+          </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <div class="footer-bottom">
+      <div class="footer-left">
+        <p>© 2023 Ecommerce</p>
+      </div>
+      <div class="footer-right">
+        <img src="./flags/41045fb1972e45d68802086bd84cb513e501f747.png" alt="Flag" />
+        <span>↑</span>
+      </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

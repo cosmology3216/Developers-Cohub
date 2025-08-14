@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+        
+
+</head>
+<body>
+     <!-- HEADER -->
+   
+<header class="header-alibaba">
+  
+  <div class="logo">
+    <img src="./images/logo-colored.png" alt="Brand Logo">
+  </div>
+
+  <!-- Search Area -->
+  <div class="search-bar">
+    <input type="text" placeholder="Search products...">
+    <select class="category-select">
+      <option>All Category</option>
+      <option>cart</option>
+      <option>Login</option>
+      <option>product</option>
+    </select>
+    <button>Search</button>
+
+
+    <i class="fa fa-bell"></i>
+    <i class="fa fa-heart"></i>
+    <i class="fa fa-shopping-cart"></i>
+    <i class="fa fa-user"></i>
+  </div>
+  
+</header>
+<!-- NAVBAR -->
+<section class="navbar-alibaba">
+  
+  <div class="nav-wrapper">
+    <!-- NAVIGATION MENU -->
+    <nav class="main-menu">
+      <ul>
+        <li>All Category</li>
+        <li>Hot Offers</li>
+        <li>Gift Boxes</li>
+        <li>Projects</li>
+        <li>Menu Item</li>
+        <li>Help</li>
+      </ul>
+    </nav>
+
+    <!-- Language & Shipping Options -->
+    <div class="lang-ship">
+      <select>
+        <option>English, 🇺🇸    <span>Ship to 🇺🇸</span></option>
+      </select>
+      <select>
+        <option>Ship to 🇩🇪 Germany</option>
+      </select>
+    </div>
+
+  </div>
+
+  <!-- Category Breadcrumb -->
+  <nav class="category-bar">
+    <div class="category-scroll">
+      <a href="index.html">Home</a> >
+      <a href="#">Clothing</a> >
+      <a href="#">Men's Wear</a> >
+      <a href="#">Summer Wear</a> >
+      <a href="#">Women's Wear</a> >
+      <a href="#">More...</a>
+    </div>
+  </nav>
+
+ <div class="container">
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <h3><b>Category ^</b></h3>
+    <ul>
+      <li>Mobile Accessories</li>
+      <li>Electronics</li>
+      <li>Smartphones</li>
+      <li>Modern Tech</li>
+      <li>Lenovo</li>
+      <p class="light-blue-text">See all</p>
+    </ul>
+
+    <h3><b>Brands ^</b></h3>
+    <ul>
+      <li><input type="checkbox" checked> Samsung</li>
+      <li><input type="checkbox" checked> Apple</li>
+      <li><input type="checkbox"> Huawei</li>
+      <li><input type="checkbox"> Poco</li>
+      <li><input type="checkbox"> Lenovo</li>
+      <p class="light-blue-text">See all</p>
+    </ul>
+
+    <h3><b>Features ^</b></h3>
+    <ul>
+      <li><input type="checkbox" checked> Metallic</li>
+      <li><input type="checkbox"> Plastic Cover</li>
+      <li><input type="checkbox"> 8GB RAM</li>
+      <li><input type="checkbox"> Super Power</li>
+      <li><input type="checkbox"> Large Memory</li>
+      <p class="light-blue-text">See all</p>
+    </ul>
+
+    <h3><b>Price Range ^</b></h3>
+    <label>Min: <input type="number" min="0" value="0" style="width: 60px;"></label>
+    <label>Max: <input type="number" min="0" value="1000" style="width: 60px;"></label>
+    <input type="range" min="0" max="9999" value="500">
+    <button>Apply</button>
+
+    <h3><b>Condition ^</b></h3>
+    <label><input type="radio" name="condition" checked> Any</label><br>
+    <label><input type="radio" name="condition"> Refurbished</label><br>
+    <label><input type="radio" name="condition"> Brand New</label><br>
+    <label><input type="radio" name="condition"> Old Items</label><br>
+
+    <h3>Ratings</h3>
+    <label>★★★★★</label><br>
+    <label>★★★★☆</label><br>
+    <label>★★★☆☆</label><br>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="main-content">
+
+    <!-- Filter Bar -->
+    <div class="filter-bar">
+      <p><strong>12,911</strong> items in <strong>Mobile Accessories</strong></p>
+      <label><input type="checkbox" checked> Verified Only</label>
+      <select>
+        <option>Featured</option>
+        <option>Newest</option>
+        <option>Price: Low to High</option>
+        <option>Price: High to Low</option>
+      </select>
+      <a href="./ca.html" class="grid-view">🔲</a>
+      <a href="cart.html" class="list-view">📃</a>
+    </div>
+
+    <!-- Product List -->
+    <div id="productList">
+      <div class="product">
+        <img src="./images/phone.png" alt="
+        ">
+        <div class="product-info">
+          <h4>iPhone 12 Red <i class="fa-regular fa-heart wishlist-icon"></i></h4>
+          <p class="price">$99.50</p>
+          <p>⭐⭐⭐⭐⭐ 7.5 | <span>Free Shipping</span></p>
+          <p>GoPro HERO6 4K Action Camera - Black</p>
+          <a href="#">View Details</a>
+        </div>
+      </div>
+
+     
+      <div class="product">
+        <img src="./images/ebb1aca726e944afe4e9b344a9d08d2cdf13f6ac.png" alt="Xiaomi Redmi">
+        <div class="product-info">
+          <h4>Xiaomi Redmi <i class="fa-regular fa-heart wishlist-icon"></i></h4>
+          <p class="price">$99.50</p>
+          <p>⭐⭐⭐⭐⭐ 7.5 | <span>Free Shipping</span></p>
+          <p>GoPro HERO6 4K Action Camera - Black</p>
+          <a href="#">View Details</a>
+        </div>
+      </div>
+
+      <div class="product">
+        <img src="./images/2@2x.png" alt="iPad Mini">
+        <div class="product-info">
+          <h4>iPad Mini <i class="fa-regular fa-heart wishlist-icon"></i></h4>
+          <p class="price">$99.50</p>
+          <p>⭐⭐⭐⭐⭐ 7.5 | <span>Free Shipping</span></p>
+          <p>GoPro HERO6 4K Action Camera - Black</p>
+          <a href="#">View Details</a>
+        </div>
+      </div>
+       <div class="product">
+        <img src="./images/f16c3be367d46067797d63f72c5d238bab2c834f.png" alt="iPad Mini">
+        <div class="product-info">
+          <h4>iPad Mini <i class="fa-regular fa-heart wishlist-icon"></i></h4>
+          <p class="price">$99.50</p>
+          <p>⭐⭐⭐⭐⭐ 7.5 | <span>Free Shipping</span></p>
+          <p>GoPro HERO6 4K Action Camera - Black</p>
+          <a href="#">View Details</a>
+        </div>
+      </div>
+       <div class="product">
+        <img src="./images/8.png" alt="iPad Mini">
+        <div class="product-info">
+          <h4>iPad Mini <i class="fa-regular fa-heart wishlist-icon"></i></h4>
+          <p class="price">$99.50</p>
+          <p>⭐⭐⭐⭐⭐ 7.5 | <span>Free Shipping</span></p>
+          <p>GoPro HERO6 4K Action Camera - Black</p>
+          <a href="#">View Details</a>
+        </div>
+      </div>
+       <div class="product">
+        <img src="./images/tech/0.png" alt="iPad Mini">
+        <div class="product-info">
+          <h4>iPad Mini <i class="fa-regular fa-heart wishlist-icon"></i></h4>
+          <p class="price">$99.50</p>
+          <p>⭐⭐⭐⭐⭐ 7.5 | <span>Free Shipping</span></p>
+          <p>GoPro HERO6 4K Action Camera - Black</p>
+          <a href="#">View Details</a>
+        </div>
+      </div>
+      
+    </div>
+    
+
+  </main>
+</div>
+
+      <!-- Pagination -->
+      <div class="pagination">
+  <button><a href="./ca.html">1</a></button>
+  <button><a href="./cart.html">2</a></button>
+  <button><a href="./product.html">3</a></button>
+  <button><a href="./login.html">&gt;</a></button>
+</div>
+
+      </div>
+    </main>
+  </div>
+
+
+    
+<!-- NEWSLETTER -->
+<section class="newsletter">
+  <h2>Subscribe to our Newsletter</h2>
+  <p>Get daily news on upcoming offers from many suppliers all over the world</p>
+  <form action="mailto:your-email@example.com" method="POST" enctype="text/plain">
+    <label for="email"><span>📧</span> Email:</label><br>
+    <input type="email" id="email" name="Email" required><br><br>
+    <button type="submit">Subscribe</button>
+  </form>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="brand-logo">
+    <img src="./images/logo-colored.png" alt="Brand Logo" />
+    <p>Best information about the company goes here but now lorem ipsum is</p>
+    <div class="social-icons">
+      <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+    </div>
+  </div>
+
+  <div class="layout-footer alibaba">
+    <div class="column">
+      <h2>About</h2>
+      <h3>About Us</h3>
+      <h3>Find Store</h3>
+      <h3>Categories</h3>
+      <h3>Blogs</h3>
+    </div>
+    <div class="column">
+      <h2>Partnership</h2>
+      <h3>Become Partner</h3>
+      <h3>Affiliate</h3>
+      <h3>Wholesale</h3>
+      <h3>Support</h3>
+    </div>
+    <div class="column">
+      <h2>Information</h2>
+      <h3>Help Center</h3>
+      <h3>Money Refund</h3>
+      <h3>Shipping</h3>
+      <h3>Contact Us</h3>
+    </div>
+    <div class="column">
+      <h2>For Users</h2>
+      <h3>Login</h3>
+      <h3>Register</h3>
+      <h3>Settings</h3>
+      <h3>My Orders</h3>
+    </div>
+    <div class="column">
+     <h2><b>Get app</b></h2>
+    <div style="display: flex; gap: 20px;">
+  <!-- Google Play -->
+  <a href="https://play.google.com/store" target="_blank">
+    <i class="fab fa-google-play" style="font-size: 30px; color: #34A853;"></i>
+  </a>
+
+  <!-- Apple App Store -->
+  <a href="https://www.apple.com/app-store/" target="_blank">
+    <i class="fab fa-apple" style="font-size: 30px; color: #000;"></i>
+  </a>
+    </div>
+  </div>
+  </footer>
+
+ 
+  
+  
+
+<div class="footer-bottom">
+  <div class="footer-left">
+    <p>© 2023 Ecommerce</p>
+  </div>
+  <div class="footer-right">
+    <img src="./flags/41045fb1972e45d68802086bd84cb513e501f747.png" alt="Flag" />
+    <span>↑</span>
+  </div>
+</div>            
+
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
